@@ -1,6 +1,8 @@
 package application;
 
 
+import java.time.LocalDate;
+import java.sql.Date;
 import java.util.List;
 
 import model.dao.DaoFactory;
@@ -32,6 +34,14 @@ public class Program {
 			System.out.println(obj);
 		}
 		
+		System.out.println("\n=== TEST 4: seller insert ===");
+		LocalDate birthDate = LocalDate.of(1993, 10, 11);
+		Date sqlDate = Date.valueOf(birthDate);
+		
+		Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", 
+				sqlDate, 4000.0, department);
+		sellerDao.insert(newSeller);
+		System.out.println("Inseted! New id = " + newSeller.getId());
 	}
 
 }
