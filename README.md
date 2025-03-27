@@ -13,6 +13,7 @@ O demo-dao-jdbc é um sistema simples para gerenciamento de departamentos de ven
 
 ✅ Criar departamentos de vendas (ex: Eletrônicos, Livros, Computadores) 📚💻📱
 ✅ Cadastrar vendedores associados a um departamento 👨‍💼👩‍💼
+
 ✅ Cada vendedor possui:
 
   º🆔 ID
@@ -22,13 +23,18 @@ O demo-dao-jdbc é um sistema simples para gerenciamento de departamentos de ven
   º🎂 Data de Aniversário
   º🏢 ID do Departamento
 
-🛠️ Configuração do Projeto
+🛠️ Visualização do Projeto
 
 Clone o repositório:
+
 1º. git clone https://github.com/fernandoBellegarde/demo-dao-jdbc.git
+
 2º. Importe o projeto no Eclipse
+
 3º. Configure a conexão com o MySQL no arquivo adequado
+
 4º. Execute o projeto 🚀
+
 
 📩 Contato
 
